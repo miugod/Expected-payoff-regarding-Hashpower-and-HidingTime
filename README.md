@@ -6,5 +6,12 @@ If I have mined N, and want to get higher probability for the next block N+1 min
 
 # Analysis
 ## In comparison to other miners
+There will be a closed interval of "hiding time", in which attacker with >50% hashrate will gain no less ratio of overall blocks expected than his hashrate. 
 
+There is also a best "hiding time", where the attacker gets the most ratio of overall blocks expected, for a fixed hashrate, regardless of how much time is used for block N.
 ## Difficulty Adjustment
+Before a difficulty adjustment given by the system, it's hard for the attacker to gain profit.
+
+Reason: more time is wasted by hiding.
+
+Given a fixed time slot when there is no difficulty adjustment, the attacker can only gain if he reaches about 80% hashrate, and this "gaining hashrate" is affected also by how much time is used for block N.
